@@ -9,7 +9,7 @@ dados <- read.csv("C:\\Users\\pedro\\OneDrive\\Documentos\\Inteligencia Artifici
 
 summary(dados$quality)
 
-#Remover dados dupicados
+#Remover dados duplicados
 dados <- unique(dados)
 
 #Remover dados com valores null
